@@ -7,13 +7,12 @@
 
 <p align="justify">Di satu sisi, gambar skala abu-abu menyampaikan lebih sedikit informasi daripada RGB. Namun, mereka umum dalam pemrosesan gambar karena menggunakan gambar skala abu-abu membutuhkan lebih sedikit ruang yang tersedia dan lebih cepat, terutama ketika kita berurusan dengan perhitungan yang kompleks.</p>
 
-Di bawah ini, kita dapat melihat berbagai warna yang dapat digambarkan oleh model skala abu-abu :
+
 
 <h2 align="center"><b> Convert RGB to Grayscale </b></h2></p>
 
 > ## Ligthness Method
-
-Dimasukkan dalam rumus
+Dalam rumus
 
 ```matlab
 grayscale = (min(R,G,B) - max (R,G,B)) / 2
@@ -23,7 +22,7 @@ grayscale = (min(R,G,B) - max (R,G,B)) / 2
 
 > ## Average Method
 
-Dimasukkan dalam rumus
+Dalam rumus
 
 ```matlab
 grayscale = (R + G + B) / 3
@@ -33,7 +32,7 @@ grayscale = (R + G + B) / 3
 
 > ## Luminosity Method
 
-Dimasukkan dalam rumus
+Dalam rumus
 
 ```matlab
 grayscale = (0.3 * R) + (0.59 * G) + (0.11 * B) 
