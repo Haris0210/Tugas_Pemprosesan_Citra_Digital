@@ -2,8 +2,7 @@
 
 ### Apa itu Bit Plane Slicing?
 
-Secara digital, sebuah gambar direpresentasikan dalam bentuk piksel. Piksel ini dapat diekspresikan lebih lanjut dalam bentuk bit. Perhatikan gambar di bawah ini :
-
+Secara digital, sebuah gambar direpresentasikan dalam bentuk piksel. Piksel ini dapat diekspresikan lebih lanjut dalam bentuk bit.
 
 Format biner untuk nilai tersebut adalah (representasi 8-bit).
 
